@@ -19,13 +19,13 @@ My work so far is [this](http://stevencd.github.com/sub-pc-1).
 * don't know much about CSS, but tried none the less
 
 ## Input Format ##
-`
-0000: 7de1 8000 0048 7de1 8001 0065 7de1 8002
-0008: 006c 7de1 8003 006c 7de1 8004 006f 7de1
-0010: 8005 002c 7de1 8006 0020 7de1 8007 0077
-0018: 7de1 8008 006f 7de1 8009 0072 7de1 800a
-0020: 006c 7de1 800b 0064 7de1 800c 0021
-`
+
+    0000: 7de1 8000 0048 7de1 8001 0065 7de1 8002
+    0008: 006c 7de1 8003 006c 7de1 8004 006f 7de1
+    0010: 8005 002c 7de1 8006 0020 7de1 8007 0077
+    0018: 7de1 8008 006f 7de1 8009 0072 7de1 800a
+    0020: 006c 7de1 800b 0064 7de1 800c 0021
+
 
 Afaik, this is what most dcpu16 Assemblers will output.
 The [0-9a-fA-F]{1,4}: at the beginning of the lines will be ignored and is optional.
