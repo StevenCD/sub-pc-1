@@ -1,0 +1,33 @@
+<!docytpe html>
+
+<h2>DCPU16 Disassember (alpha)</h2>
+
+<div class="container">
+	<div class="controls">
+		<h3>input</h3>
+		<textarea cols="45" rows="24" id="input"></textarea>
+
+		<br>
+
+		<button id="start">Execute</button>
+		<input type="text" id="delay" value="100"></input>ms
+	</div>
+
+	<div class="output">
+		<h3>video ram (starts at 0x8000)</h3>
+		<div id="videoram"></div>
+	</div>
+
+	<div class="machine">
+		<h3>registers</h3>
+		<div id="registers"></div>
+
+		<h3>disassembled code</h3>
+		<div id="code"></div>
+	</div>
+</div>
+
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<script src="machine.js"></script>
+<script src="gui.js"></script>

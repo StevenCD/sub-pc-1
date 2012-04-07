@@ -1,0 +1,77 @@
+body {
+	background-color: #ddd;
+	font-family: "Lucida Console";
+	font-size: 14px;
+}
+
+div.controls {
+	position: absolute;
+	left: 30px;
+	top: 30px;
+	width: 450px;
+}
+
+div.output {
+	position: absolute;
+	left: 30px;
+	top: 550px;
+	width: 450px;
+}
+
+div.machine {
+	position: absolute;
+	left: 500px;
+	top: 30px;
+}
+
+#code {
+	height: 600px;
+	width: 450px;
+	overflow: auto;
+}
+
+#input, button, #delay, table {
+	border: 2px solid black;
+	border-radius: 3px;
+}
+
+button, #delay {
+	margin-top: 10px;
+}
+
+table {
+	margin: 2px 2px 2px 2px;
+	font-size: 14px;
+	table-layout: fixed;
+	text-align: left;
+}
+
+table.regTable td {
+	min-width: 32px;
+	text-align: right;
+}
+
+td, th {
+	border: 0px solid #ddd;
+	min-width: 14px;
+}
+
+th {
+	background-color: #88d;
+}
+
+tr.even {
+	background-color: #ccf;
+}
+
+tr.odd {
+	background-color: #aaf;
+}
+
+tr.focus1 {
+	background-color: #dd8;
+}
+
+tr.focus2 {
+	background-color: #aa6;
+}
